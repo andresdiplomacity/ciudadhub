@@ -41,6 +41,4 @@ jobs:
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
-    steps:
-      - uses: actions/deploy-pages@v4
-        id: deployment
+   https://github.com/ciudadhub-ux/ciudadhub/edit/main/.github/workflows/deploy.yml
